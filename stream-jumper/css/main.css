@@ -32,12 +32,12 @@ h2{
 	font-weight:600;
 }
 a, a:link, a:visited, a:active{
-	color:#36a7d1;
+	color:#7ad136;
 	text-decoration:none;
 	text-transform: uppercase;
 }
 .partnered a,.partnered a:link,.partnered a:visited,.partnered a:active{
-	color:#b143d1;
+	color:#ffd600;
 }
 input{
 	border-radius: 20px;
@@ -48,7 +48,7 @@ input{
 }
 .top{
 	padding:10px;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(40, 105, 125, 0.4);
 	display:flex;
 }
 .controls{
@@ -76,7 +76,7 @@ nav a:hover{
 	margin-left: 1%;
 }
 .ctrl button{
-	background-color:#9b33b9;
+	background-color:#da9b20;
 	color: black;
 	border: none;
 	padding:5px;
@@ -103,51 +103,6 @@ nav a:hover{
 .content{
 	padding-bottom:3em;
 }
-
-.notification-wrap{
-	text-align:center;
-	background: rgba(0, 0, 0, 1);
-	padding:10px;
-	position:fixed;
-	bottom:5px;
-	right:5px;
-	z-index:2;
-	border:1px solid gray;
-	display:none;
-}
-.notification{
-	max-height:300px;
-	overflow:hidden;
-}
-.notification-button{
-	padding-top:5px;
-	border-top: 1px solid gray;
-}
-.notification-wrap .followeraddbtn, .notification-wrap .notificationclosebtn{
-	background-color:#9b33b9;
-	color: black;
-	border: none;
-	padding:5px 10px 5px 10px;
-	border-radius: 20px;
-	color:white;
-	text-transform: uppercase;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight:600;
-	cursor: pointer;
-}
-.notification-wrap .notificationclosebtn{
-	background-color:#5d5d5d;
-}
-.notification-name{
-	padding:0px 5px 5px 5px;
-}
-.partner-notification{
-	color:#b143d1;
-}
-.regular-notification{
-	color:#36a7d1;
-}
-
 .channelwrapper{
 	display:flex;
 	flex-wrap: wrap;
@@ -155,7 +110,7 @@ nav a:hover{
 }
 .stream{
 	position:relative;
-	background-color: #0b0617;
+	background-color: #6b37e7;
 	padding:0px;
 	border-radius: 5px;
 	margin:10px;
